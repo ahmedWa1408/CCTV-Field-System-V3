@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>الحركة الميدانية CCTV</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- رسالة الترحيب -->
+
+<section id="welcomePage">
+
+<div class="welcome-card">
+
+<h1>
+
+مرحباً بكم
+
+</h1>
+
+<p>
+
+نسأل الله لكم التوفيق والسلامة
+
+في أداء مهامكم الميدانية
+
+</p>
+
+<button id="startBtn">
+
+ابدأ
+
+</button>
+
+</div>
+
+</section>
+
+<!-- صفحة الخطة -->
+
+<section id="planPage" class="hidden">
+
+<header>
+
+<h1>
+
+الحركة الميدانية
+
+</h1>
+
+<h2>
+
+قسم التشغيل CCTV
+
+</h2>
+
+</header>
+
+<div class="plan-card">
+
+<h3>
+
+بيانات الخطة
+
+</h3>
+
+<label>
+
+رقم الخطة
+
+</label>
+
+<input
+
+type="number"
+
+id="planNumber"
+
+placeholder="أدخل رقم الخطة"
+
+>
+
+<button id="searchBtn">
+
+بحث
+
+</button>
+
+</div>
+
+</section>
+
+<!-- صفحة المسار -->
+
+<section id="routePage" class="hidden">
+
+<div class="route-card">
+
+<h2>
+
+اسم المسار
+
+</h2>
+
+<h1 id="routeName">
+
+</h1>
+
+<button id="missionBtn">
+
+بدء المسار
+
+</button>
+
+<button id="historyBtn">
+
+سجلات المسار السابقة
+
+</button>
+
+<button id="backBtn">
+
+العودة لرقم الخطة
+
+</button>
+
+</div>
+
+</section>
+
+<script src="plans.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
